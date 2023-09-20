@@ -174,4 +174,4 @@ async function textpro(url, text) {
 
 }
 
-mmodule.exports = { textpro }
+module.exports = { textpro }
