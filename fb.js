@@ -1,3 +1,7 @@
+const axios = require("axios")
+const cheerio = require("cheerio")
+
+
 async function tiktok(url) {
    try {
       let data = await axios.get("https://ssstik.io/en", {
